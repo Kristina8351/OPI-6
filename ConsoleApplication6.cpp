@@ -8,18 +8,13 @@ int main()
 {
 	int n, m;
 
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
-
 	int A[100][100];
-	cout << "Введіть розміри масиву: ";
 	cin >> m >> n;
 
 	for (int i = 0; i < m; i++)
 	{
 		for (int j = 0; j < n; j++)
 		{
-			cout << "Введіть елемент масиву: ";
 			cin >> A[i][j];
 		}
 	}
